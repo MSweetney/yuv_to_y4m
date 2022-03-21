@@ -3,8 +3,7 @@ import argparse
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description=' This script cuts YUV4MPEG2'
-                    ' input files (y4m format) to yuv output file.')
+        description='This script converts yuv input to y4m output')
     parser.add_argument('-o', type=str, help='Specify output yuv file path.')
     parser.add_argument('-i', type=str, help='Specify input y4m file path.')
     parser.add_argument('-w', type=str, help='Specify width')
