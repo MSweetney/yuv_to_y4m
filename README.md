@@ -6,7 +6,7 @@ Convert .yuv files to .y4m format with python
 Example command:
 
 ```
-yuv_to_y4m.py -i /path/to/file.yuv -o output.y4m -w 480 -e 270 -n 60 -d 1 -f lp -C 420jpeg
+yuv_to_y4m.py -i /path/to/file.yuv -o output.y4m -w 480 -e 270 -n 60 -d 1 -f Ip -C 420jpeg
 ```
 
 Parameters list
